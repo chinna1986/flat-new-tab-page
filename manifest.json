@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Flat New Tab Page",
+    "version": "0.1",
+    "description": "A Chrome Extension to change the \"New Tab\" Page",
+    "author": "florian.weber.dd@icloud.com",
+    "homepage_url": "https://github.com/fweber-de/flat-new-tab-page",
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

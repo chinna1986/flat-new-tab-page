@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Florian Weber">
+
+    <title>New Tab</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">New Tab</h3>
+                    <ul class="nav masthead-nav">
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <h1 class="cover-heading" id="time"></h1>
+
+                <p class="lead">
+                    <span id="greeting"></span>
+                </p>
+            </div>
+
+            <div class="mastfoot">
+                <div class="clearfix">
+                    <div class="inner">
+                        <ul class="nav masthead-nav">
+                            <li><a href="#" data-toggle="modal" data-target="#settings-modal">Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="settings-modal" tabindex="-1" role="dialog" aria-labelledby="settings-modal-label"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="settings-modal-label">Settings</h4>
+            </div>
+            <div class="modal-body">
+
+                <form role="form" id="settings-form">
+                    <div class="form-group">
+                        <label for="input-username">Username</label>
+                        <input type="text" class="form-control" id="input-username" placeholder="Username">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/moment-with-langs.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
